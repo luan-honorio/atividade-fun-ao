@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+
+    <script>
+        let num1=parseInt(prompt("digite omprimeiro numero"))
+        let oper =prompt("qual operacao? soma ou subtração ")
+        let num2 =parseInt( prompt("escolha outro numro para  a operaçao"))
+
+        function calculo (numero1,  oper , numero2){
+            if (oper == 'soma'){
+                let soma= numero1+numero2
+                console.log(`o resultado é ${soma}`)
+            }
+            else if( oper== 'subtração'){
+                let subtracao = numero1-numero2
+                console.log(`o resultado é ${subtracao}`)
+            }
+        }
+        calculo(num1,oper,num2)
+
+
+        //  a funçao calculo recebe argumentos ou parametos do prompt  na ordem indicada
+        // num1= numero1, oper=oper e num2=numero2 
+        // depois execulta o codigo da funçao que nesse caso é a estrutura condicional 
+        // if else (se senao) e execulta a operaçao selecionada.
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
